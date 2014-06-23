@@ -1,21 +1,27 @@
 <!doctype html>
 <html xmlns:ng="http://angularjs.org" lang="en" ng-app>
 <head>
-  	<meta charset="utf-8">
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  	<meta name="description" content="">
-  	<meta name="keywords" content="">
-  	<meta name="author" content="">
-  	<link rel="shortcut icon" href="assets/images/favicon.ico">
-  	<title>front-puzzle</title>
-  	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-  	<link rel="stylesheet" href="assets/styles/index.css">
-  	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>front-puzzle</title>
+    <!-- build:css styles/vendors.css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- endbuild -->
+    <!-- build:css styles/app.css -->
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- endbuild -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
-        <script src="bower_components/respond/dest/respond.src.js"></script>
-        <script src="bower_components/es5-shim/es5-shim.js"></script>
+        <!-- build:js scripts/shivs.min.js -->
+        <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+        <script src="../bower_components/respond/dest/respond.src.js"></script>
+        <script src="../bower_components/es5-shim/es5-shim.js"></script>
+        <!-- endbuild -->
     <![endif]-->
 </head>
 <body id="ng-app" ng-app="app">
@@ -44,13 +50,16 @@
         <div class="starter-template" ng-view></div ng-view>
     </div>
 
-  	<script src="bower_components/jquery/dist/jquery.js"></script>
-  	<script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/lodash/dist/lodash.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+    <!-- build:js scripts/vendors.min.js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+    <script src="../bower_components/lodash/dist/lodash.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+    <!-- endbuild -->
 
+    <!-- build:js scripts/app.min.js -->
     <script src="scripts/app.js"></script>
     <script src="scripts/config.js"></script>
     <script src="scripts/routes.js"></script>
@@ -60,5 +69,7 @@
     <script src="scripts/filters/index.js"></script>
     <script src="scripts/models/index.js"></script>
     <script src="scripts/config.js"></script>
+    <!-- endbuild -->
+
 </body>
 </html>

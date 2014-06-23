@@ -1,10 +1,18 @@
 {
   "name": "front-puzzle",
   "description": "frontend application template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/alxsad/front-puzzle",
   "license": "MIT",
-  "dependencies": {
+  "authors": [
+    "Alex Davidovich <alxsad@gmail.com>"
+  ],
+  "keywords": [
+    "frontend",
+    "application",
+    "template"
+  ],
+  "devDependencies": {
     "angular": "1.2.x",
     "angular-route": "1.2.x",
     "angular-bootstrap": "0.x",
@@ -12,7 +20,6 @@
     "es5-shim": "3.4.x",
     "lodash": "2.4.x",
     "bootstrap": "3.1.x",
-    "html5shiv": "~3.7.0"
-  },
-  "devDependencies": {}
+    "html5shiv": "3.7.x"
+  }
 }
