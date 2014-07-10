@@ -1,9 +1,10 @@
-### Front Puzzle - frontend application template.
+### Front Puzzle
+frontend application template.
 
 ### Prepare
 
 ```sh
-npm install -g gulp
+$ npm install -g gulp
 
 ```
 
@@ -21,5 +22,4 @@ $ gulp
 
 ## License
 
-The MIT License
-Copyright (c) 2014 Alex Davidovich
+The MIT License, Copyright (c) 2014 Alex Davidovich
